@@ -18,13 +18,15 @@
 // }
 // console.log(geti(str));
 
-// let str = "Algoritm and Oxford";
-// let u = "";
-// function toq(str) {
-//     for (let i = 0; i < str.length; i += 2) {
-//         u += str[i];
-//     }
-//     return u
-// }
-// toq(str)
-// console.log(u);
+let str = "Algoritm and Oxford";
+let u = "";
+function toq(str) {
+    for (let i = 0; i < str.length; i ++) {
+        if(!(i%2)){
+            u+=str[i]
+        }
+    }
+    return u
+}
+toq(str)
+console.log(u);
