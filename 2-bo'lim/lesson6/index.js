@@ -1,9 +1,19 @@
-let str = "Men Oxfordda IT o'qiyman!";
-let cloneStr = ""
-function reverseStr(str){
-for(let i = str.length-1; i>=0; i--){
-    cloneStr+=str[i]
-} 
-console.log(cloneStr);
+// let str = "Men Oxfordda IT o'qiyman!";
+// let cloneStr = ""
+// function reverseStr(str){
+// for(let i = str.length-1; i>=0; i--){
+//     cloneStr+=str[i]
+// } 
+// console.log(cloneStr);
+// }
+//  reverseStr(str)
+
+let str = "Oxford";
+let i = 0;
+function geti(str){
+    for(let value of str){
+    i+=value.charCodeAt()
 }
- reverseStr(str)
+return i;
+}
+console.log(geti(str));
