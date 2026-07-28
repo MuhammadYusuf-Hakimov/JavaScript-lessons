@@ -18,15 +18,28 @@
 // }
 // console.log(geti(str));
 
-let str = "Algoritm and Oxford";
-let u = "";
-function toq(str) {
-    for (let i = 0; i < str.length; i ++) {
-        if(!(i%2)){
-            u+=str[i]
-        }
-    }
-    return u
+// let str = "Algoritm and Oxford";
+// let u = "";
+// function toq(str) {
+//     for (let i = 0; i < str.length; i ++) {
+//         if(!(i%2)){
+//             u+=str[i]
+//         }
+//     }
+//     return u
+// }
+// toq(str)
+// console.log(u);
+let str = "AlgOrItm and OXForD";
+let katta = ""
+let kichkina = ""
+function kattakichik(str){
+for(let value of str){
+    if(value === " ") continue;
+    if(value === value.toLocaleLowerCase()) kichkina+=value
+    else katta +=value
 }
-toq(str)
-console.log(u);
+}
+kattakichik(str)
+console.log(katta);
+console.log(kichkina);
