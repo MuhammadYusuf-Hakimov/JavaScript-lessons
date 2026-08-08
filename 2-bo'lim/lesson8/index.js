@@ -25,9 +25,9 @@
 // }
 // console.log(obj);
 
-let data = ["Olma", "Nok", "Apelsin", "Anor"];
-let i = data.splice(0, 1)
-let k = data.splice(1, 1)
-data.push("Tarvuz")
-console.log(i.concat(k));
-console.log(data);
+// let data = ["Olma", "Nok", "Apelsin", "Anor"];
+// let i = data.splice(0, 1)
+// let k = data.splice(1, 1)
+// data.push("Tarvuz")
+// console.log(i.concat(k));
+// console.log(data);
