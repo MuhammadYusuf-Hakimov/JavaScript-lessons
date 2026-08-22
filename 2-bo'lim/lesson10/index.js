@@ -20,3 +20,4 @@
 // let data = [1, 1, 1, 2, 2, 3, x 4, 5, 5, 6]
 // let newdata = data.filter((value, index, a) => !a.slice(index+1).includes(value)) 
 // console.log(newdata);
+
