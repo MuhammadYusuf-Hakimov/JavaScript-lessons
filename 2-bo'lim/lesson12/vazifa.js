@@ -23,6 +23,7 @@
 // console.log(flatResult);
 
 // let newArr = Array(5);
+
 // console.log(newArr);
 
 // let fillArr = Array(5);
